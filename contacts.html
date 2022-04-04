@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts page</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="header-wrapper">
+        <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/IKI_logo.png" alt="IKI logo">
+        </div>
+        <nav>
+            <a href="index.html">Apie mus</a>
+            <a href="#">Susisiek</a>
+        </nav>
+        </header>
+    </div>
+
+    <main id="contact">
+        <h1>Susisiekite su musu <span class="greentext">komanda!</span></h1>
+        <form>
+            <label for="name">Vardas:</label>
+            <input type="text" name="name" id="name" placeholder="Petras" required>
+
+            <label for="email">El. pastas:</label>
+            <input type="email" name="email" id="email" placeholder="email@email.lt" required>
+
+            <label for="loyaltyid">Iki korteles numeris:</label>
+            <input type="number" name="loyaltyid" id="loyaltyid" placeholder="12345678" minlength="8" maxlength="8">
+
+            <label for="message">Zinute:</label>
+            <textarea id="message" placeholder="Jusu laiskas mums" required></textarea>
+        </form>
+
+        <table>
+            <tr>
+                <th>Vardas</th>
+                <th>Pareigos</th>
+                <th>Telefonas</th>
+            </tr>
+            <tr>
+                <td>Vidmantas</td>
+                <td>Direktorius</td>
+                <td>+37065412345</td>
+            </tr>
+            <tr>
+                <td>Nijole</td>
+                <td>Administratore</td>
+                <td>+37063412356</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        Copyright &copy: AN 2022. All rights reserved.
+    </footer>
+</body>
+</html>
